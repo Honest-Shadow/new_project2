@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.user-signup {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.086);
+  border-radius: 10px;
+  padding: 20px;
+  width: 25%;
+  margin: auto;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.input-box label {
+  align-self: flex-start;
+  font-size: small;
+  color: white;
+}
+.input-box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 100%;
+  background-color: blue;
+  cursor: pointer;
+}
+p {
+  color: white;
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+h2 {
+  font-size: large;
+}
+
+/* login css */
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.first-line {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+}
+.first-line h1 {
+  color: blue;
+  font-size: 30px;
+}
+.login h2 {
+  color: black;
+}
+.first-line p {
+  color: black;
+  font-size: 15px;
+}
+.login form {
+  background-color: white;
+}
+.login input {
+  background-color: lightblue;
+}
+
+/* dashboard css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 0px;
+  background-color: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.logo {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+.active {
+  color: purple;
+}
+.logout {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: purple;
+  border: 3px solid purple;
+  background-color: white;
+  cursor: pointer;
+}
+.dash-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  margin-top: 20px;
+}
+.dash-body h1 {
+  color: black;
+  font-size: 30px;
+}
+.dash-body p {
+  color: black;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+  padding: 20px;
+  gap: 10px;
+  background-color: blueviolet;
+  border-radius: 20px; 
+}
+.welcome h1 {
+  color: white;
+}
+.welcome p {
+  color: white;
+}
+.dash-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  color: violet;
+  width: 40%;
+}
+.card h1 {
+  font-size: larger;
+}
+.quick-action {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+  padding: 20px;
+}
+.quick-action h1 {
+  font-size: larger;
+}
+.quick-actions {
+  display: flex;
+  gap: 20px;
+}
+.active1 {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* settings css */
+.set-body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 25px;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  margin-top: 20px;
+}
+.settings h1 {
+  color: black;
+  font-size: larger;
+}
+.settings p {
+  color: black;
+}
+.settings form {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 50%;
+  gap: 10px;
+}
+.settings form input {
+  background-color: gray;
+  color: black;
+}
